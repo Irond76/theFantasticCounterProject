@@ -15,8 +15,9 @@ body {
 }
 .btn {
     text-transform: uppercase;
+    text-shadow: 3px 6px 3px black;
     background: #E30074;
-    color: white;
+    color: #fff;
     padding: 1rem;
     border-radius: .5rem;
     box-shadow: 1px 1px 15px #E30074;
