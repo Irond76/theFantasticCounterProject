@@ -13,13 +13,25 @@ body {
     letter-spacing: 0.5rem;
     text-transform: capitalize;
 }
+
+.hr-rule {
+    height: .2rem;
+    border: none;
+    background-color: #E30074;
+    width: 30rem;
+    margin: 1rem auto;
+}
+
+.power-span {
+    margin-bottom: 3rem;
+}
 .btn {
     text-transform: uppercase;
     text-shadow: 3px 6px 3px black;
     background: #E30074;
     color: #fff;
     padding: 1rem;
-    border-radius: .5rem;
+    border-radius: 1rem;
     box-shadow: 1px 1px 15px #E30074;
     transition: all 0.3s linear;
 }
@@ -49,12 +61,31 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-@media screen and  (max-width:560px) {
+@media screen and  (max-width:676px) {
+    main {
+        display: grid;
+        justify-content: center;
+        width: 50vw;
+        height: 100vh;
+    }
     .container {
         display: grid;
+        width: 80vw;
         grid-template-columns: 1fr;
+        justify-content: center;
+        font-size: .75rem;
+        letter-spacing: 0;
     }
     .btn {
         margin-bottom: 1.5rem;
+        width: 60vw;
+        justify-self: center;
+    }
+    .hr-rule {
+        height: .2rem;
+        border: none;
+        background-color: #E30074;
+        width: 14rem;
+        margin: 0 auto 1rem auto;
     }
 }
